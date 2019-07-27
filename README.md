@@ -1,4 +1,4 @@
-# Get problem statements PDFs from AtCoder, Codeforces, and SPOJ
+# Get problem statements PDFs from AtCoder, Codeforces, SPOJ
 
 ## How to use
 
@@ -39,4 +39,4 @@ window.print();
 
 * For SPOJ and AtCoder, it doesn't report the time and memory limits, since I'm planning on using vjudge, and that tells you those limits, I plan on getting people watch the limits from there, but you get the idea of how to extend this if you want to, I would, of course, welcome PRs.
 
-* I need support for other OJs.
+* I need support for other OJs, feel free to add yours.
