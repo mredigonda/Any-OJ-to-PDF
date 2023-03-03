@@ -19,9 +19,9 @@ window.print();
 ### Codeforces
 
 ```js
-var x = document.getElementById('pageContent'); // All of the problem statement
-var y = x.children[2].children[0].children[0].children[0].children[0].innerHTML; // only the title of the problem like "A - eqweqwe"
-x.children[2].children[0].children[0].children[0].children[0].innerHTML = y.substr(y.indexOf('.') + 2); // replace the title for only "eqweqwe"
+var x = document.getElementById('pageContent');
+var y = x.children[2].innerHTML;
+x.children[2].innerHTML = y.substr(y.indexOf('.') + 2);
 document.body.innerHTML = x.innerHTML;
 window.print();
 ```
